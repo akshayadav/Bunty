@@ -33,7 +33,7 @@ void loop() {
       Bluetooth.write('a');
       digitalWrite(led, HIGH);
     } else {
-      Bluetooth.write('b');
+//      Bluetooth.write('b');
       digitalWrite(led, LOW);
     }
   } 
